@@ -1,0 +1,199 @@
+{
+    "global_helplines": {
+        "emergency_services": {
+            "USA": {
+                "emergency": "911",
+                "suicide_prevention": "988",
+                "crisis_text": "Text HOME to 741741",
+                "domestic_violence": "1-800-799-7233",
+                "poison_control": "1-800-222-1222"
+            },
+            "India": {
+                "emergency": "112",
+                "ambulance": "108",
+                "police": "100",
+                "fire": "101",
+                "disaster_management": "108",
+                "women_helpline": "1091",
+                "child_helpline": "1098",
+                "mental_health": "9152987821",
+                "suicide_prevention": "9152987821"
+            },
+            "UK": {
+                "emergency": "999",
+                "non_emergency": "111",
+                "samaritans": "116 123",
+                "domestic_abuse": "0808 2000 247"
+            },
+            "Canada": {
+                "emergency": "911",
+                "suicide_prevention": "1-833-456-4566",
+                "crisis_text": "Text 45645"
+            },
+            "Australia": {
+                "emergency": "000",
+                "lifeline": "13 11 14",
+                "beyond_blue": "1300 22 4636",
+                "kids_helpline": "1800 55 1800"
+            }
+        },
+        "mental_health": {
+            "international": {
+                "name": "International Association for Suicide Prevention",
+                "website": "https://www.iasp.info/resources/Crisis_Centres/",
+                "description": "Directory of crisis centers worldwide"
+            },
+            "USA": [
+                {
+                    "name": "National Suicide Prevention Lifeline",
+                    "number": "988",
+                    "hours": "24/7",
+                    "services": [
+                        "Suicide prevention",
+                        "Crisis counseling",
+                        "Emotional support"
+                    ]
+                },
+                {
+                    "name": "Crisis Text Line",
+                    "contact": "Text HOME to 741741",
+                    "hours": "24/7",
+                    "services": [
+                        "Text-based crisis support"
+                    ]
+                },
+                {
+                    "name": "SAMHSA National Helpline",
+                    "number": "1-800-662-4357",
+                    "hours": "24/7",
+                    "services": [
+                        "Substance abuse",
+                        "Mental health treatment referral"
+                    ]
+                },
+                {
+                    "name": "Veterans Crisis Line",
+                    "number": "1-800-273-8255 (Press 1)",
+                    "text": "838255",
+                    "hours": "24/7",
+                    "services": [
+                        "Veterans mental health support"
+                    ]
+                }
+            ],
+            "India": [
+                {
+                    "name": "Vandrevala Foundation",
+                    "number": "9152987821",
+                    "hours": "24/7",
+                    "services": [
+                        "Mental health support",
+                        "Crisis counseling"
+                    ]
+                },
+                {
+                    "name": "iCall",
+                    "number": "9152987821",
+                    "email": "icall@tiss.edu",
+                    "hours": "Mon-Sat, 8 AM - 10 PM",
+                    "services": [
+                        "Psychosocial counseling"
+                    ]
+                },
+                {
+                    "name": "Snehi",
+                    "number": "91-22-27546669",
+                    "hours": "24/7",
+                    "services": [
+                        "Emotional support",
+                        "Suicide prevention"
+                    ]
+                }
+            ]
+        },
+        "domestic_violence": {
+            "USA": {
+                "name": "National Domestic Violence Hotline",
+                "number": "1-800-799-7233",
+                "text": "Text START to 88788",
+                "hours": "24/7",
+                "website": "https://www.thehotline.org"
+            },
+            "India": {
+                "name": "Women Helpline",
+                "number": "1091",
+                "hours": "24/7"
+            }
+        },
+        "child_protection": {
+            "USA": {
+                "name": "Childhelp National Child Abuse Hotline",
+                "number": "1-800-422-4453",
+                "hours": "24/7"
+            },
+            "India": {
+                "name": "Childline India",
+                "number": "1098",
+                "hours": "24/7"
+            }
+        },
+        "disaster_management": {
+            "USA": {
+                "name": "FEMA",
+                "number": "1-800-621-3362",
+                "website": "https://www.fema.gov"
+            },
+            "India": {
+                "name": "National Disaster Management Authority",
+                "number": "1078",
+                "emergency": "112",
+                "website": "https://ndma.gov.in"
+            }
+        },
+        "medical_emergencies": {
+            "poison_control": {
+                "USA": "1-800-222-1222",
+                "India": "1066 (AIIMS Delhi)"
+            }
+        }
+    },
+    "resources": {
+        "mental_health_apps": [
+            {
+                "name": "Crisis Text Line",
+                "platform": "SMS",
+                "contact": "Text HOME to 741741",
+                "description": "Free 24/7 text-based crisis support"
+            },
+            {
+                "name": "BetterHelp",
+                "platform": "Web/App",
+                "type": "Online therapy",
+                "website": "https://www.betterhelp.com"
+            },
+            {
+                "name": "Headspace",
+                "platform": "App",
+                "type": "Meditation and mindfulness",
+                "description": "Mental wellness and stress management"
+            }
+        ],
+        "online_resources": [
+            {
+                "name": "MentalHealth.gov",
+                "url": "https://www.mentalhealth.gov",
+                "description": "US government mental health resources"
+            },
+            {
+                "name": "WHO Mental Health",
+                "url": "https://www.who.int/health-topics/mental-health",
+                "description": "Global mental health information"
+            },
+            {
+                "name": "Red Cross",
+                "url": "https://www.redcross.org",
+                "description": "Emergency preparedness and response"
+            }
+        ]
+    }
+}

@@ -1,0 +1,175 @@
+{
+  "cases": [
+    {
+      "id": "CASE-00001",
+      "timestamp": "2025-11-29T11:58:54.528159",
+      "user_input": "Critical medical emergency",
+      "classification": {
+        "category": "other",
+        "severity": "low",
+        "keywords": [],
+        "confidence": 0.5,
+        "reasoning": "No specific crisis keywords detected",
+        "country": "USA"
+      },
+      "protocol_used": null,
+      "status": "active",
+      "follow_up_scheduled": "2025-12-02T11:58:54.528159"
+    },
+    {
+      "id": "CASE-00002",
+      "timestamp": "2025-11-29T11:58:54.531404",
+      "user_input": "High severity disaster",
+      "classification": {
+        "category": "other",
+        "severity": "low",
+        "keywords": [],
+        "confidence": 0.5,
+        "reasoning": "No specific crisis keywords detected",
+        "country": "USA"
+      },
+      "protocol_used": null,
+      "status": "active",
+      "follow_up_scheduled": "2025-12-02T11:58:54.531404"
+    },
+    {
+      "id": "CASE-00003",
+      "timestamp": "2025-11-29T11:58:54.533254",
+      "user_input": "Medium mental health",
+      "classification": {
+        "category": "mental_health_crisis",
+        "severity": "medium",
+        "keywords": [
+          "mental health"
+        ],
+        "confidence": 0.75,
+        "reasoning": "Keyword-based mental health classification",
+        "country": "USA"
+      },
+      "protocol_used": null,
+      "status": "active",
+      "follow_up_scheduled": "2025-11-30T11:58:54.533254"
+    },
+    {
+      "id": "CASE-00004",
+      "timestamp": "2025-11-29T11:58:54.534291",
+      "user_input": "Low severity issue",
+      "classification": {
+        "category": "other",
+        "severity": "low",
+        "keywords": [],
+        "confidence": 0.5,
+        "reasoning": "No specific crisis keywords detected",
+        "country": "USA"
+      },
+      "protocol_used": null,
+      "status": "active",
+      "follow_up_scheduled": "2025-12-02T11:58:54.534291"
+    },
+    {
+      "id": "CASE-00005",
+      "timestamp": "2025-11-29T12:00:39.542242",
+      "user_input": "Critical medical emergency",
+      "classification": {
+        "category": "other",
+        "severity": "low",
+        "keywords": [],
+        "confidence": 0.5,
+        "reasoning": "No specific crisis keywords detected",
+        "country": "USA"
+      },
+      "protocol_used": null,
+      "status": "active",
+      "follow_up_scheduled": "2025-12-02T12:00:39.542242"
+    },
+    {
+      "id": "CASE-00006",
+      "timestamp": "2025-11-29T12:00:39.544280",
+      "user_input": "High severity disaster",
+      "classification": {
+        "category": "other",
+        "severity": "low",
+        "keywords": [],
+        "confidence": 0.5,
+        "reasoning": "No specific crisis keywords detected",
+        "country": "USA"
+      },
+      "protocol_used": null,
+      "status": "active",
+      "follow_up_scheduled": "2025-12-02T12:00:39.544280"
+    },
+    {
+      "id": "CASE-00007",
+      "timestamp": "2025-11-29T12:00:39.545325",
+      "user_input": "Medium mental health",
+      "classification": {
+        "category": "mental_health_crisis",
+        "severity": "medium",
+        "keywords": [
+          "mental health"
+        ],
+        "confidence": 0.75,
+        "reasoning": "Keyword-based mental health classification",
+        "country": "USA"
+      },
+      "protocol_used": null,
+      "status": "active",
+      "follow_up_scheduled": "2025-11-30T12:00:39.545325"
+    },
+    {
+      "id": "CASE-00008",
+      "timestamp": "2025-11-29T12:00:39.546332",
+      "user_input": "Low severity issue",
+      "classification": {
+        "category": "other",
+        "severity": "low",
+        "keywords": [],
+        "confidence": 0.5,
+        "reasoning": "No specific crisis keywords detected",
+        "country": "USA"
+      },
+      "protocol_used": null,
+      "status": "active",
+      "follow_up_scheduled": "2025-12-02T12:00:39.546332"
+    },
+    {
+      "id": "CASE-00009",
+      "timestamp": "2025-11-29T12:03:00.567206",
+      "user_input": "I see flood coming up",
+      "classification": {
+        "category": "disaster_emergency",
+        "severity": "high",
+        "keywords": [
+          "flood"
+        ],
+        "confidence": 0.75,
+        "reasoning": "Keyword-based disaster classification",
+        "country": "USA"
+      },
+      "protocol_used": "flood",
+      "status": "active",
+      "follow_up_scheduled": "2025-11-29T18:03:00.567206"
+    },
+    {
+      "id": "CASE-00010",
+      "timestamp": "2025-11-29T12:03:16.981263",
+      "user_input": "I feel headache",
+      "classification": {
+        "category": "other",
+        "severity": "low",
+        "keywords": [],
+        "confidence": 0.5,
+        "reasoning": "No specific crisis keywords detected",
+        "country": "USA"
+      },
+      "protocol_used": null,
+      "status": "active",
+      "follow_up_scheduled": "2025-12-02T12:03:16.981263"
+    }
+  ],
+  "metadata": {
+    "total_cases": 10,
+    "last_updated": "2025-11-29T12:03:16.981263",
+    "version": "1.0"
+  }
+}

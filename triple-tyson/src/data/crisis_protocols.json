@@ -1,0 +1,301 @@
+{
+  "medical_emergencies": [
+    {
+      "id": "cardiac_emergency",
+      "name": "Cardiac Emergency / Heart Attack",
+      "keywords": ["chest pain", "heart attack", "cardiac arrest", "difficulty breathing", "left arm pain"],
+      "severity": "critical",
+      "protocol": {
+        "immediate_actions": [
+          "Call emergency services immediately (911/108/999)",
+          "Have the person sit down and rest",
+          "Loosen any tight clothing",
+          "If person has prescribed nitroglycerin, help them take it",
+          "If person becomes unconscious and stops breathing, begin CPR",
+          "Do NOT give food or water"
+        ],
+        "warning_signs": [
+          "Chest pain or discomfort",
+          "Pain in arms, back, neck, jaw, or stomach",
+          "Shortness of breath",
+          "Cold sweat, nausea, lightheadedness"
+        ],
+        "do_not": [
+          "Leave the person alone except to call for help",
+          "Allow the person to deny symptoms",
+          "Wait to see if symptoms go away",
+          "Give anything by mouth unless heart medication"
+        ]
+      },
+      "source": "American Heart Association Guidelines"
+    },
+    {
+      "id": "stroke",
+      "name": "Stroke",
+      "keywords": ["stroke", "face drooping", "arm weakness", "speech difficulty", "sudden numbness"],
+      "severity": "critical",
+      "protocol": {
+        "immediate_actions": [
+          "Call emergency services immediately - time is critical",
+          "Note the time symptoms started",
+          "Use FAST test: Face drooping, Arm weakness, Speech difficulty, Time to call 911",
+          "Keep person calm and lying down with head slightly elevated",
+          "Do NOT give food, drink, or medication"
+        ],
+        "fast_test": {
+          "F": "Face - Ask person to smile. Does one side droop?",
+          "A": "Arms - Ask person to raise both arms. Does one drift down?",
+          "S": "Speech - Ask person to repeat a simple phrase. Is speech slurred?",
+          "T": "Time - If any symptoms present, call emergency immediately"
+        }
+      },
+      "source": "WHO Stroke Guidelines"
+    },
+    {
+      "id": "severe_bleeding",
+      "name": "Severe Bleeding",
+      "keywords": ["bleeding", "cut", "wound", "hemorrhage", "blood loss"],
+      "severity": "high",
+      "protocol": {
+        "immediate_actions": [
+          "Call emergency services if bleeding is severe",
+          "Protect yourself - wear gloves if available",
+          "Apply direct pressure with clean cloth",
+          "Maintain pressure for at least 10 minutes",
+          "If blood soaks through, add more cloth on top",
+          "Elevate the injured area above heart if possible",
+          "Apply pressure to arterial pressure points if needed"
+        ],
+        "do_not": [
+          "Remove embedded objects",
+          "Peek at wound while applying pressure",
+          "Use a tourniquet unless trained and as last resort"
+        ]
+      },
+      "source": "Red Cross First Aid Guidelines"
+    },
+    {
+      "id": "choking",
+      "name": "Choking",
+      "keywords": ["choking", "can't breathe", "airway blocked", "heimlich"],
+      "severity": "critical",
+      "protocol": {
+        "immediate_actions": [
+          "Ask 'Are you choking?' If they can't speak, act immediately",
+          "Perform Heimlich maneuver (abdominal thrusts)",
+          "Stand behind person, wrap arms around waist",
+          "Make fist above navel, grasp with other hand",
+          "Give quick upward thrusts",
+          "Repeat until object is expelled or person becomes unconscious",
+          "If unconscious, begin CPR and call emergency services"
+        ],
+        "for_infants": [
+          "Give 5 back blows between shoulder blades",
+          "Give 5 chest thrusts",
+          "Alternate until object expelled"
+        ]
+      },
+      "source": "American Red Cross"
+    }
+  ],
+  "mental_health_crises": [
+    {
+      "id": "panic_attack",
+      "name": "Panic Attack",
+      "keywords": ["panic attack", "anxiety", "can't breathe", "heart racing", "overwhelming fear"],
+      "severity": "medium",
+      "protocol": {
+        "immediate_actions": [
+          "Find a quiet, safe space",
+          "Practice 4-7-8 breathing: Inhale 4 counts, hold 7, exhale 8",
+          "Use 5-4-3-2-1 grounding technique",
+          "Remind yourself: 'This will pass, I am safe'",
+          "Contact crisis helpline if needed: 988 (USA) / 9152987821 (India)"
+        ],
+        "grounding_technique": {
+          "5": "Name 5 things you can see",
+          "4": "Name 4 things you can touch",
+          "3": "Name 3 things you can hear",
+          "2": "Name 2 things you can smell",
+          "1": "Name 1 thing you can taste"
+        },
+        "breathing_exercises": [
+          "Box breathing: 4-4-4-4 (inhale-hold-exhale-hold)",
+          "4-7-8 breathing: Inhale 4, hold 7, exhale 8",
+          "Diaphragmatic breathing: Deep belly breaths"
+        ]
+      },
+      "source": "American Psychological Association"
+    },
+    {
+      "id": "suicidal_thoughts",
+      "name": "Suicidal Thoughts / Self-Harm Crisis",
+      "keywords": ["suicide", "kill myself", "end it all", "self-harm", "want to die", "no reason to live"],
+      "severity": "critical",
+      "protocol": {
+        "immediate_actions": [
+          "Take all thoughts seriously - this is a medical emergency",
+          "Call National Suicide Prevention Lifeline: 988 (USA) / 9152987821 (India)",
+          "Text 'HELLO' to 741741 (Crisis Text Line)",
+          "Do NOT leave person alone",
+          "Remove access to means of self-harm",
+          "Listen without judgment",
+          "Get professional help immediately"
+        ],
+        "what_to_say": [
+          "'I'm here for you'",
+          "'You're not alone'",
+          "'This is temporary, help is available'",
+          "'Your life matters'"
+        ],
+        "what_not_to_say": [
+          "'You have so much to live for'",
+          "'Think of your family'",
+          "'It could be worse'",
+          "'You're being selfish'"
+        ]
+      },
+      "source": "National Suicide Prevention Lifeline"
+    },
+    {
+      "id": "ptsd_flashback",
+      "name": "PTSD Flashback",
+      "keywords": ["flashback", "ptsd", "trauma", "reliving", "triggered"],
+      "severity": "medium",
+      "protocol": {
+        "immediate_actions": [
+          "Ground yourself in the present",
+          "Use sensory grounding: touch something cold, smell something strong",
+          "Remind yourself: 'I am safe now, this is a memory'",
+          "Practice deep breathing",
+          "Contact therapist or crisis line if needed"
+        ],
+        "grounding_techniques": [
+          "Describe your surroundings out loud",
+          "Hold ice cubes or splash cold water",
+          "Stomp your feet to feel the ground",
+          "Name today's date, your age, where you are"
+        ]
+      },
+      "source": "PTSD Foundation of America"
+    }
+  ],
+  "disaster_emergencies": [
+    {
+      "id": "earthquake",
+      "name": "Earthquake",
+      "keywords": ["earthquake", "tremor", "shaking", "seismic"],
+      "severity": "high",
+      "protocol": {
+        "during_earthquake": [
+          "DROP to hands and knees",
+          "COVER head and neck under sturdy table/desk",
+          "HOLD ON until shaking stops",
+          "Stay away from windows, mirrors, heavy objects",
+          "If in bed, stay there and cover head with pillow",
+          "If outdoors, move away from buildings, trees, power lines",
+          "If in vehicle, pull over and stay inside"
+        ],
+        "after_earthquake": [
+          "Check for injuries",
+          "Expect aftershocks",
+          "Evacuate if building is damaged",
+          "Stay away from damaged areas",
+          "Listen to emergency broadcasts",
+          "Do NOT use elevators"
+        ],
+        "do_not": [
+          "Stand in doorways (outdated advice)",
+          "Run outside during shaking",
+          "Use elevators",
+          "Light matches if you smell gas"
+        ]
+      },
+      "source": "USGS Earthquake Safety"
+    },
+    {
+      "id": "flood",
+      "name": "Flood",
+      "keywords": ["flood", "flooding", "water rising", "flash flood"],
+      "severity": "high",
+      "protocol": {
+        "immediate_actions": [
+          "Move to higher ground immediately",
+          "Never walk through moving water (6 inches can knock you down)",
+          "Never drive through flooded roads (Turn Around, Don't Drown)",
+          "Evacuate if told to do so",
+          "Disconnect electrical appliances if safe to do so",
+          "Do NOT touch electrical equipment if wet"
+        ],
+        "preparation": [
+          "Have emergency kit ready",
+          "Know evacuation routes",
+          "Move valuables to higher floors",
+          "Fill bathtubs with clean water"
+        ]
+      },
+      "source": "FEMA Flood Safety"
+    },
+    {
+      "id": "fire",
+      "name": "Fire Emergency",
+      "keywords": ["fire", "smoke", "burning", "flames"],
+      "severity": "critical",
+      "protocol": {
+        "immediate_actions": [
+          "Alert everyone - shout 'FIRE!'",
+          "Activate fire alarm if available",
+          "Call emergency services: 911 (USA) / 101 (India)",
+          "Evacuate immediately - do NOT gather belongings",
+          "Feel doors before opening (if hot, use alternate route)",
+          "Crawl low under smoke",
+          "Close doors behind you to slow fire spread",
+          "Meet at designated assembly point"
+        ],
+        "if_trapped": [
+          "Close door between you and fire",
+          "Seal cracks with cloth to keep smoke out",
+          "Signal for help from window",
+          "Call emergency services with your location"
+        ],
+        "do_not": [
+          "Use elevators",
+          "Go back inside for belongings",
+          "Open doors that are hot",
+          "Break windows (may feed fire with oxygen)"
+        ]
+      },
+      "source": "National Fire Protection Association"
+    },
+    {
+      "id": "hurricane",
+      "name": "Hurricane / Cyclone",
+      "keywords": ["hurricane", "cyclone", "typhoon", "tropical storm"],
+      "severity": "high",
+      "protocol": {
+        "before_hurricane": [
+          "Board up windows",
+          "Secure outdoor objects",
+          "Stock emergency supplies (water, food, batteries)",
+          "Fill vehicles with fuel",
+          "Charge all devices",
+          "Know evacuation routes"
+        ],
+        "during_hurricane": [
+          "Stay indoors away from windows",
+          "Go to interior room on lowest floor",
+          "Do NOT go outside during 'eye' of storm",
+          "Listen to emergency broadcasts",
+          "Use flashlights, not candles"
+        ],
+        "after_hurricane": [
+          "Wait for all-clear from authorities",
+          "Avoid floodwaters",
+          "Watch for downed power lines",
+          "Document damage for insurance"
+        ]
+      },
+      "source": "National Hurricane Center"
+    }
+  ]
+}
