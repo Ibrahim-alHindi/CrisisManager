@@ -304,7 +304,7 @@ This agent is designed with safety as the top priority:
 
 **Mohamed Ibrahim A**  
 *AI Agents Intensive Course Participant*  
-- GitHub: [mohamedibrahimbinabdullah](https://github.com/Ibrahim-alHindi))
+- GitHub: [mohamedibrahimbinabdullah](https://github.com/Ibrahim-alHindi)
 
 **Ameena Firdous**  
 *AI Agents Intensive Course Participant*
