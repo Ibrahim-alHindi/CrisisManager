@@ -304,6 +304,7 @@ This agent is designed with safety as the top priority:
 
 **Mohamed Ibrahim A**  
 *AI Agents Intensive Course Participant*
+---
 **Ameena Firdous H**
 *AI Agents Intensive Course Participant*
 
