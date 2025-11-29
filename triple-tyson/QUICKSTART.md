@@ -46,7 +46,6 @@ python tests/test_scenarios.py
 
 See [README.md](README.md) for complete documentation.
 
-See [SUBMISSION_GUIDE.md](SUBMISSION_GUIDE.md) for submission instructions.
 
 ---
 
