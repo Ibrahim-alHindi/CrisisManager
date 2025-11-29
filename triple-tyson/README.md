@@ -300,15 +300,15 @@ This agent is designed with safety as the top priority:
 
 ---
 
-## 👥 Team
+# 👥 Team
 
 **Mohamed Ibrahim A**  
-*AI Agents Intensive Course Participant*
--
-**Ameena Firdous**
-*AI Agents Intensive Course Participant*
+*AI Agents Intensive Course Participant*  
+- GitHub: [mohamedibrahimbinabdullah](https://github.com/mohamedibrahimbinabdullah)
 
-
+**Ameena Firdous**  
+*AI Agents Intensive Course Participant*
+- GitHub: [AmeenaFirdous](https://github.com/ameenafirdous)
 
 
 ---
